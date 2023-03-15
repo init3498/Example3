@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+	flex-direction: column;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
+  .content {
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    position: relative;
+    height: 100%;
+  }
+}
